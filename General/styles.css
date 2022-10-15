@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 100px;
+}
+
+.header{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+/**/
+.nav-ul{
+    display: flex;
+    list-style: none;
+    
+}
+.nav-ul li{
+    padding: 15px;    
+}
+.nav-ul li a{
+    text-decoration: none;
+    color: black;
+
+
+}
+
+
+.banner{
+    margin-top: 50px 0px 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    font-size: 2em;
+
+}
+
+.resumen{
+    width: 45%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.btn-primary{
+    width: 200px;
+    background-color: orange;
+    color: black;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    box-shadow: 0 15px 25px gray;
+    animation-name: boton-volador;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes boton-volador {
+    from{
+        margin-left: 100%;
+    }
+    to{
+        margin-left: -0.7%;
+    }
+}
+
+
+/*CUANDO VAMOS A PRESIONAR EL BTN ES LO QUE
+CAMBIARA LA CAJA*/
+
+.btn-primary:hover{
+    background-color: blue;
+
+}
+
+
+.img-profile{
+    border-radius: 50%;
+}
+
+.section-works{
+    display: flex;
+
+}
+.trabajo{
+    border-radius: 50%;
+
+}
+
+.section-works div img:hover {
+    box-shadow: 0 25px 30px black;
+}
+
+/*RESPONSIVE REDIMENZIONANDO DE ACUERDO AL CAMBIO EN EL TAMAÑO EN 
+EN LAS CAJAR*/
+
+@media only screen and (max-width :1200px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .section-works{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}

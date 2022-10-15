@@ -1,0 +1,96 @@
+/* Selector Global*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Selector de etiqueta*/
+section{
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/*Selector de clase*/
+
+.card{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    border-radius: 8px;
+
+    
+}
+
+.card-foto{
+    display: flex;
+    justify-content: center;
+    margin:20px
+
+
+}
+
+.image-principal{
+    border-radius: 10px;
+}
+
+.container-dos{
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 20px;
+    
+}
+
+
+
+
+.text-white{
+    color: hsl(0, 0%, 100%)
+}
+
+.text-gary{
+    margin-top: 20px;
+    color: white;
+    opacity: 0.5;
+}
+
+.container-detalle{
+    width: 20rem;
+    padding-bottom: 20px;
+    justify-content: space-around;
+    display: flex;
+
+
+}
+
+.nft{
+    color: hsl(178, 100%, 50%) ;
+    font-weight: 150;
+}
+
+.tiempo{
+    color: white;
+    opacity: 0.3;
+}
+
+
+/*CONTAINER AUTOR*/
+
+
+.container-autor{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.nombre{
+    color: white;
+    opacity: 0.3;
+}
+
