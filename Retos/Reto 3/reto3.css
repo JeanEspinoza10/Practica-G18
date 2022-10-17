@@ -26,6 +26,7 @@ h2{
 /*EDITANDO CABECERA */
 
 .cabecera{
+    background-color:#7299FE80 ;
 
     position: relative;
 
@@ -38,6 +39,7 @@ h2{
 
 .figura img {
     width: 100%;
+    height: 100%;
 }
 
 .cabecera  h1 {
@@ -128,11 +130,115 @@ h2{
 /*SECCION PORTAFOLIO*/
 
 .portafolio {
-    
-
-}
-
-.portafolio {
+    background-color: #FFD233;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
 }
+.text_porta {
+
+    margin: 0 auto;
+    color: #00AD84;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.img_porta {
+    width: 610px;
+    height: 200px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.img_porta img {
+    width: 140px;
+    height: 92px;
+    padding: 10px;
+}
+
+/***************END DE SECCION**********************/
+/* SECCION CLIENTES*/
+
+.clientes {
+    background-color:#3F4E62;
+    color: #ADFF28;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.clientes_img {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.clientes_img img {
+    padding: 5px;
+}
+
+.contacto_form_2 input{
+    width: 759px;
+    height: 112px;
+    
+}
+
+
+/***************END DE SECCION**********************/
+/*SECCION CONTACTO*/
+
+.contacto {
+    background-color:#1687A0 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.contacto h2 {
+    color: #FF1B1B;
+}
+
+.contacto_form_1 {
+    
+    height: 200px;
+    width: 759px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.contacto_form_1 div input {
+    width: 363px;
+    height: 59px;
+
+}
+
+.contacto_boton {
+    padding: 50px;
+}
+
+.boton_enviar {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1rem;
+    background-color: #233451 ;
+    color:#FFFFFF ;
+}
+
+
+
+
+
+

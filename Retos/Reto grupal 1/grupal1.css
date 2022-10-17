@@ -1,0 +1,44 @@
+.container_total {
+    margin: 50px;
+}
+
+/*ENCABEZADO*/
+
+
+.header {
+
+
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+
+    
+}
+
+
+/*SECCION PORTAFOLIO*/
+
+.portafolio {
+ 
+}
+
+.img_portafolio {
+
+    display: flex;
+    background-color: ;
+    
+       
+
+}
+
+.semitotal {
+    background-color: green;
+}
+
+.prueba {
+    background-color:;
+}
+.div {
+    margin: 0;
+    padding: 0;
+}
