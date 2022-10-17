@@ -190,9 +190,89 @@
 .seccion_final{
     background-color: hsl(209, 92%, 24%);
     margin-top: 150px;
+    color: aqua;
+}
+
+.logo_final {
+    padding-bottom: 30px;
+
 }
 
 .fin {
     padding: 150px;
+}
+
+.total_textos {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.texto {
+    padding: 0px;
+}
+
+.location {
+    display: flex;
+    padding: 10px;
+}
+
+.location p{
+    padding-left: 10px;
+}
+
+
+.phone {
+    display: flex;
+    padding: 10px;
+    
+}
+.phone p {
+    padding-left: 10px;
+}
+.email {
+    display: flex;
+    padding: 10px;
+}
+
+.email p {
+    padding-left: 10px;
+}
+
+.texto2 {
+
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 80px;
+}
+
+.texto2 a {
+    padding: 10px;
+    color: white;
+}
+
+
+.icono {
+
+    display: flex;
 
 }
+
+.icono img {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+
+}
+
+
+.corporate {
+
+    float: right;
+}
+
